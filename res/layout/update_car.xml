@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Marca" />
+    
+    <EditText
+        android:id="@+id/brand"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Modelo" />
+    
+    <EditText
+        android:id="@+id/model"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Ano" />
+    
+    <EditText
+        android:id="@+id/year"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Ultima troca de Óleo" />
+
+    <DatePicker
+        android:id="@+id/oil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:datePickerMode="calendar"
+        android:layoutMode="opticalBounds" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Última calibragem nos pneus" />
+    
+    <DatePicker
+        android:id="@+id/tire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:datePickerMode="calendar"
+         />
+    <Button 
+        android:id="@+id/submit"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Salvar"/>
+
+</LinearLayout>
